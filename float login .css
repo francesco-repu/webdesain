@@ -1,0 +1,80 @@
+body {
+   background-image: url(tema.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+  position: absolute;
+  width: 320px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 50px rgb(0, 0, 0, 0.2);
+  opacity: 50%;
+}
+
+.box {
+  text-align: center;
+  padding: 50px 50px 30px 50px;
+}
+
+.username,
+.password {
+  float: left;
+  width: 55%;
+  text-align: center;
+  padding: 13px 0;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: rgba(18, 56, 207, 0.5);
+  margin-bottom: 15px;
+  transition: 0.5s;
+}
+
+.username::placeholder,
+.password::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.username:focus,
+.password:focus {
+  background-color: rgba(18, 56, 207, 0.7);
+}
+
+a {
+  display: block;
+  font-size: x-small;
+  text-decoration: none;
+  color: rgba(18, 56, 207, 1);
+}
+
+.submit {
+  float: left;
+  width: 150px;
+  padding: 10px;
+  background-color: rgba(18, 56, 207, 1);
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  outline: none;
+  margin: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #053bae;
+}
